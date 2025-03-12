@@ -5,6 +5,7 @@ const RegresiveInput = ({ onSetCount }) => {
 
     const handleChange = (e) => {
         const value = e.target.value;
+        
         if (/^\d*$/.test(value)) {
             setInputValue(value);
         }
